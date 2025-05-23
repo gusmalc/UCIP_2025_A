@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#contenido{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "aa aa"
+                        "bb cc"
+                        "dd xx"
+                        "ee ee";
+    gap: 15px;
+}
+
+#contenido>div{
+    background: #f00;
+    min-height: 200px;
+}
+#top{
+    grid-area: aa;
+}
+#serv1{
+    grid-area: bb;
+}
+#serv2{
+    grid-area: cc;
+}
+#serv3{
+    grid-area: dd;
+}
+#serv4{
+    grid-area: xx;
+}
+#pie{
+    grid-area: ee;
+}
+
+@media (min-width: 992px) {
+    #contenido{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: "aa aa aa aa"
+                            "bb cc dd xx"
+                            "ee ee ee ee";
+        gap: 15px;
+    }
+}
