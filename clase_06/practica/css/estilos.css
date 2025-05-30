@@ -1,0 +1,16 @@
+.btn, input{
+    border-radius: 0 !important;
+}
+
+#caja_resultado{
+    border: 1px #ccc solid;
+    padding: 20px;
+}
+
+#resultado{
+    background: #222;
+    color: #fff;
+    min-height: 50px;
+    padding: 15px;
+    font-size: 2rem;
+}
