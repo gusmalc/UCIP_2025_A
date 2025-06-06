@@ -18,3 +18,7 @@ btn_sumar.addEventListener("click", function(ev){
     }
     //resultado.innerHTML = r;
 })
+
+btn_borrar.addEventListener("click", function() {
+    resultado.innerHTML = "";
+})
