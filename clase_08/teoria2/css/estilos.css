@@ -1,0 +1,14 @@
+#caja1{
+    margin-top: 20px;
+    width: 300px;
+    height: 100px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo_verde{
+    background: #0f0;
+    border: 5px solid #222 !important;
+}
