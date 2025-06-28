@@ -1,0 +1,13 @@
+#app{
+    display: flex;
+    gap: 5px;
+}
+#app>div{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
