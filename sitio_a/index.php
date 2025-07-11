@@ -11,7 +11,13 @@
 <body>
    
 <?php include "comunes/menu.php"; ?>
-<main></main>
+<main>
+
+<div class="container">
+    <img style="width: 50%" src="<?php echo $site_url . "img/venecia.jpg"; ?>" alt="Portada">
+</div>
+
+</main>
 
 
 <?php include "comunes/pie.php"; ?>
