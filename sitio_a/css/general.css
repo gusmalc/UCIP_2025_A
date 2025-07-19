@@ -1,7 +1,13 @@
 
-
-
+a, a:link, a:visited, a:hover, a:active{
+  outline: none !important;
+  text-decoration: none;
+}
+img{
+    width: 100%;
+}
 
 main{
     min-height: 700px;
 }
+
