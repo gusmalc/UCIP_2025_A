@@ -1,4 +1,7 @@
-
+:root{
+  --color-1: #2bbc2b;
+  --color-2: #BD6B2B;
+}
 a, a:link, a:visited, a:hover, a:active{
   outline: none !important;
   text-decoration: none;
@@ -11,3 +14,13 @@ main{
     min-height: 700px;
 }
 
+#logo_wa{
+  width: 60px;
+  position: fixed;
+  right: 4rem;
+  bottom: 4rem;
+}
+.st0{fill:#B8FF7E;}
+.st0:hover{
+  fill:#457e17;
+}

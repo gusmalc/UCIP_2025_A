@@ -1,4 +1,4 @@
-<div class="container">
+<div id="servicios_home" class="container">
     <h1>Servicios</h1>
     <img src="<?php echo $site_url . "home/img/botellas.png"; ?>" alt="" style="width: 200px">
     <div class="row">

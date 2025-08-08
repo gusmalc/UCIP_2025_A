@@ -1,4 +1,7 @@
-
+#servicios_home{
+   position: relative;
+   z-index: -1;
+}
 .card_servicio{
     display: grid;
     grid-template-columns: 1fr;
@@ -27,3 +30,37 @@
     filter: grayscale(1);
     border: solid 4px #222;
 }
+
+#portada{
+    padding-top: 50px;
+}
+
+#redes_home{
+    background: var(--color-1);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+#iconos_redes img{
+    width: 60px;
+}
+#iconos_redes{
+    display: flex;
+    gap: 20px;
+}
+#contenido_redes_home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenido_redes_home>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+/* #redes_home i{
+    font-size: 3rem;
+    color: blue;
+} */
