@@ -4,19 +4,19 @@
     <div class="row">
         <div class="col-12 col-md-4">
             <a class="card_servicio" href="<?php echo $site_url . "servicios/servicio-uno"; ?>">
-                <div><img src="<?php echo $site_url . "home/img/servicio_a.jpg"; ?>" alt=""></div>
+                <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500"><img src="<?php echo $site_url . "home/img/servicio_a.jpg"; ?>" alt=""></div>
                 <div class="texto_servicio">SERVICIO 1</div>
             </a>
         </div>
         <div class="col-12 col-md-4">
             <a class="card_servicio" href="<?php echo $site_url . "servicios/servicio-dos"; ?>">
-                <div><img src="<?php echo $site_url . "home/img/servicio_b.jpg"; ?>" alt=""></div>
+                <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500"><img src="<?php echo $site_url . "home/img/servicio_b.jpg"; ?>" alt=""></div>
                 <div class="texto_servicio">SERVICIO 2</div>
             </a>
         </div>
         <div class="col-12 col-md-4">
             <a class="card_servicio" href="<?php echo $site_url . "servicios/servicio-tres"; ?>">
-                <div><img src="<?php echo $site_url . "home/img/servicio_c.jpg"; ?>" alt=""></div>
+                <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1500"><img src="<?php echo $site_url . "home/img/servicio_c.jpg"; ?>" alt=""></div>
                 <div class="texto_servicio">SERVICIO 3</div>
             </a>
         </div>

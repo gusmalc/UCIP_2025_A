@@ -1,6 +1,6 @@
 <section id="redes_home" >
     <div class="container">
-        <div id="contenido_redes_home">
+        <div id="contenido_redes_home" data-aos="zoom-in">
             <div>
                 <h2>SEGUINOS EN REDES</h2>
                 <div id="iconos_redes">
