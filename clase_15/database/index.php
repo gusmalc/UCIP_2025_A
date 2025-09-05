@@ -31,18 +31,26 @@ if ($conn->connect_errno) {
     <h1>DATABASE</h1>
     
     <?php
+header("Content-Type: application/json; charset=UTF-8");
     
-    $result = $conn->query("SELECT * FROM usuarios");
+$result = $conn->query("SELECT * FROM usuarios");
 
-    
+$data = [];
+while ($row = $result->fetch_assoc()) {
+    $data[] = $row;
+}
 
-    while($fila = $result->fetch_assoc()) {
+echo json_encode($data, JSON_UNESCAPED_UNICODE);
+
+// var_dump($json);
+
+    // while($fila = $result->fetch_assoc()) {
         
-        //echo $fila["id"] . " - " . $fila["nombre"] . " - " . $fila["apellido"] . $fila["edad"] . "<br>";
-        echo "<h2>";
-        echo $fila['nombre'] . " " . $fila['apellido'];
-        echo "</h2>";
-    }
+    //     //echo $fila["id"] . " - " . $fila["nombre"] . " - " . $fila["apellido"] . $fila["edad"] . "<br>";
+    //     echo "<h2>";
+    //     echo $fila['nombre'] . " " . $fila['apellido'];
+    //     echo "</h2>";
+    // }
     
     
     ?>
