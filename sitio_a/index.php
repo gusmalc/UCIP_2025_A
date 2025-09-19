@@ -17,6 +17,7 @@
 
 
 <header>
+  <?php include "comunes/top.php"; ?>
     <?php include "comunes/menu.php"; ?>
     <?php include "home/elementos/portada.php"; ?>
 </header>

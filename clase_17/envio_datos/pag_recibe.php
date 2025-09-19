@@ -18,6 +18,7 @@ function test_input($data) {
     $data = htmlspecialchars($data, ENT_QUOTES, 'UTF-8');
     return $data;
 }
+// $_GET['nombre'];
 
 $nombre = test_input($_POST['nombre']);
 $apellido = test_input($_POST['apellido']);

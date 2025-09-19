@@ -1,4 +1,4 @@
-<nav id="menu_principal" class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+<nav id="menu_principal" class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
   <div class="container">
 
 

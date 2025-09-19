@@ -4,7 +4,7 @@
 
 
 <div id="logo_wa">
-    <a href="https://wa.me/5492234236570">
+    <a href="https://wa.me/5492234236570?text=Hola buen día" target="_blank">
         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 640 640" style="enable-background:new 0 0 640 640;" xml:space="preserve">
         

@@ -1,3 +1,7 @@
+
+<?php include "enviar_mail.php"; ?>
+
+
 <?php include "../config.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,13 +14,31 @@
     <link rel="stylesheet" href="<?php echo $site_url . "css/general.css"; ?>">
 </head>
 <body>
+    <?php include "../comunes/top.php"; ?>
 <?php include "../comunes/menu.php"; ?>
 
     
 <main>
     <div class="container">
-    <h1>Contacto</h1>
-</div>
+        <h1>Contacto</h1>
+
+        <?php  if($GLOBALS['enviado']=="si"){  ?>
+
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Gracias por tu consulta</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        
+        <?php   }  ?>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                    <?php include "elementos/formulario.php" ?>
+            </div>
+            <div class="col-12 col-md-6">
+                    <?php include "elementos/mapa.php" ?>
+            </div>
+        </div>
+    </div>
 </main>
 
 <?php include "../comunes/pie.php"; ?>

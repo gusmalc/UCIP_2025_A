@@ -1,0 +1,3 @@
+<h1>Mapa</h1>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.169702526218!2d-57.55312712429619!3d-37.996501971930314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc1b4b7bcfd7%3A0x42ed1c7080f1025d!2sUCIP%20-%20Capacitaci%C3%B3n!5e0!3m2!1ses-419!2sar!4v1758321122986!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
